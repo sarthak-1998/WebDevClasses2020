@@ -1,0 +1,5 @@
+p more specific thus will override less specific such as element or clss based style.
+padding has same color in whoch it is present while margin uses the color of parent element
+padding doesn't overlap while margins overlap to padding i.e if given value 10 px than distance 
+between two elements will be 20px in case of padding 
+while 10 px in case of margin  which is sufficient to provide hat scnerio

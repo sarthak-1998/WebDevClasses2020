@@ -1,0 +1,39 @@
+.right {
+  text-align: right;
+  color: red;
+}
+/* classes are initialised with a '.'  */
+
+div {
+  font-family: sans-serif /* sans is translated as not i.e not serif which is not support*/ ;
+}
+/* elements are initialised with their name */
+
+
+div.right /* more specific thus will override less specific such as element or clss based style.*/ { 
+  padding-right: 30px;
+  /* it's in px i.e pixels this make it constant for any sytem or browser thus making appearance look good */
+  color: blue;
+}
+
+.big {
+  font-size: 20pt;
+  /* pt is used for font objects as they scale with systems or browser */
+}
+
+#one {
+  background-color: yellow;
+}
+
+
+/* div.right overrides .right due to more specific than general */
+
+/* hash is used intitialise the ids used with elemant */
+
+/*padding has same color in which it is present while margin uses the color of parent element
+padding doesn't overlap while margins overlap to padding i.e if given value 10 px than distance 
+between two elements will be 20px in case of padding 
+while 10 px in case of margin  which is sufficient to provide hat scnerio
+
+*/
+ 
