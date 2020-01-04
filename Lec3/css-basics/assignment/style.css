@@ -1,0 +1,43 @@
+#click {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  font-size: 20pt;
+  color: white;
+  background-color: blueviolet;
+}
+
+#click:hover  /*hover is a state when mouse is above it*/ {
+  color: darkblue;
+  background-color: blanchedalmond;
+  
+}
+
+#list2  {
+  font-size: 20pt;
+  display: none;
+  visibility: hidden;
+
+}
+#list3  {
+  font-size: 20pt;
+  display: none;
+  visibility: hidden;
+
+}
+
+
+#list2:hover  {
+  font-size: 20pt;
+  visibility: visible;
+  display: block; 
+  
+
+}
+
+#list3:hover {
+  color: green;
+  visibility: visible;
+  display: block; 
+}
+
