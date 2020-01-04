@@ -3,3 +3,14 @@ padding has same color in whoch it is present while margin uses the color of par
 padding doesn't overlap while margins overlap to padding i.e if given value 10 px than distance 
 between two elements will be 20px in case of padding 
 while 10 px in case of margin  which is sufficient to provide hat scnerio
+
+git reset HEAD~  
+* is used to apply style to evrything
+
+List1 :first-child is very different from List1:first child 
+as 1st will aplly to 1st child of list and another will apply to the whole first child 
+whenever list1 is present.
+
+
+
+create a 3 level list which is collapsible and only things should appear when user hover parent list

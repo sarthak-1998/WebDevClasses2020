@@ -1,0 +1,27 @@
+#click {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  font-size: 20pt;
+  color: white;
+  background-color: blueviolet;
+}
+
+#click:hover  /*hover is a state when mouse is above it*/ {
+  color: darkblue;
+  background-color: blanchedalmond;
+}
+
+#click:active /* active is when mouse click is performed*/ {
+  font-size: 10pt;
+}
+
+#list1 :first-child /*only the 1st child will get effected irrespective of the value*/ {
+  font-size: 20pt;
+}
+
+#list2 :nth-child(2n + 1) /*only the nth child will get effected irrespective of the value
+ and it is generated with the help of generator*/ {
+  color: green;
+}
+
